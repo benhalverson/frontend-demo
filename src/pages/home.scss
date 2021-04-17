@@ -1,24 +1,5 @@
-// .container {
-//   display: flex;
-//   flex-direction: row;
-// }
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
-// .flex-left {
-//   width: 50%;
-//   // height: 100vh;
-//   margin: 5px;
-//   padding: 5px;
-//   border: 2px solid red;
-// }
-
-// .flex-right {
-//   width: 50%;
-//   margin: 5px;
-//   padding: 5px;
-//   border: 2px solid green;
-// }
-
-/* TWO COLUMN FLEXBOX */
 .two-column {
   display: flex;
   flex-direction: row;
@@ -36,6 +17,23 @@
 
 .two-column.reverse {
   flex-direction: row-reverse;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Source-sans-pro';
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 600px) {
