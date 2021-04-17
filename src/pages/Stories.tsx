@@ -1,17 +1,13 @@
 import Header from '../components/Header';
-import './stories.scss';
 import Card from '../components/Card';
 
-// import { CardData } from '../data/data';
+import './stories.scss';
 
-// type Props = {
-//   stories: CardData[];
-// };
 export default function StoriesPage() {
   return (
     <div>
       <Header />
-      <section>
+      <section className='stories-hero'>
         <h1>Stories</h1>
       </section>
       <h1>Latest</h1>
