@@ -1,10 +1,8 @@
-export default function Stories() {
+export default function StoriesPage() {
   return (
     <section>
       <div>
-        <h1>Stay hungry. Stay foolish.</h1>
-        <p>Learn from the hottest startups in the world</p>
-        <button>Read Now</button>
+        <h1>Stories page</h1>
       </div>
     </section>
   );
