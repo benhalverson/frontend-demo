@@ -1,0 +1,46 @@
+// .container {
+//   display: flex;
+//   flex-direction: row;
+// }
+
+// .flex-left {
+//   width: 50%;
+//   // height: 100vh;
+//   margin: 5px;
+//   padding: 5px;
+//   border: 2px solid red;
+// }
+
+// .flex-right {
+//   width: 50%;
+//   margin: 5px;
+//   padding: 5px;
+//   border: 2px solid green;
+// }
+
+/* TWO COLUMN FLEXBOX */
+.two-column {
+  display: flex;
+  flex-direction: row;
+}
+
+.two-column div {
+  flex: 1;
+  border: 1px solid blue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.two-column.reverse {
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 600px) {
+  .two-column,
+  .two-column.reverse {
+    flex-direction: column;
+  }
+}
